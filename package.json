@@ -1,0 +1,37 @@
+{
+  "name": "tsCaptcha",
+  "version": "1.0.0",
+  "description": "基于ts的图形验证组建",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "tsc -w",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kouhenrui/node_captcha.git"
+  },
+  "author": "khr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kouhenrui/node_captcha/issues"
+  },
+  "homepage": "https://github.com/kouhenrui/node_captcha#readme",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.7",
+    "ioredis-mock": "^8.9.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  },
+  "dependencies": {
+    "canvas": "^3.0.1",
+    "ioredis": "^5.4.2"
+  }
+}
